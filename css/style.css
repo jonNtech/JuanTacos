@@ -27,12 +27,12 @@
 /* LAYOUT
 /*******************************************/
 header {
-  background-color: #f3f7f8;
-  height: 75px;
+  background-color: #9d1a10;
+  height: 138px;
   color: black;
   list-style: none;
   text-decoration: none;
-  padding-bottom: 50px;
+  
   
 }
 header nav  * {
@@ -47,23 +47,24 @@ nav  ul {
   width: 70%;
   float: left;
   color: black;
+  font-size: 1.5rem;
 }
 
 
 /*this is the first section */
 main {
-  background-image: url("cuisine-restaurant-mithun-ray.png");
-  background-repeat: no-repeat;
-  background-size: 100% 700px;
+  background-image: url("spanishrice.jpg");
+  background-repeat: none;
+  background-size: 100%;
   clear: both;
-  height: 400px;
+  height: 500px;
   width: 100%;
+  color: rgb(255, 8, 0);
   
 }
 
 main + section {
-  background-image: url('2ndphoto.PNG');
-  background-repeat: no-repeat;
+  background-color: #0a9511;
   background-size: 100% 500px;
   height: 500px;
 }
@@ -84,7 +85,7 @@ input {
 main > form a {
   text-decoration: none;
   padding: 10px 30px;
-  background-color: orange;
+  background-color: rgb(255, 8, 0);
   color: white;
 }
 
@@ -96,7 +97,7 @@ main section {
 }
 main section a {
   font-size: 1.2rem;
-  color: orange;
+  color: rgb(255, 8, 0);
   text-decoration: none;
   margin-left: 50px;
 }
@@ -105,7 +106,7 @@ main section a {
 main + section p + a {
   text-decoration: none;
   padding: 10px 30px;
-  background-color: orange;
+  background-color: rgb(255, 8, 0);
   color: white;
   margin: 20px 50px 0 0;
 }
@@ -114,9 +115,13 @@ main + section {
   text-align: right;
   
 }
+.para2pic {
+  height: 15rem;
+  width: 15rem;
+}
 
 main + section span {
-  color: orange;
+  color: rgb(255, 8, 0);
   font-weight: 600;
   margin-right: 50px;
   font-size: 1.6rem;
@@ -138,17 +143,42 @@ main + section p {
 /*this is the 3rd section */
 main + section + section {
   text-align: center;
-  background-color: #f5f7f8;
+  background-image: url("nachos.jpg");
+  background-repeat: none;
+  background-size: 100%;
+  
 }
 main + section + section span {
-  color: orange;
+  color: rgb(255, 8, 0);
   font-weight: 600;
   margin-top: 30px;
+}
+#ourSpecialC {
+  color: white;
+}
+
+#orderNow{
+  font-size: 3.5rem;
 }
 
 main + section + section h2 {
   font-size: 3rem;
   clear: both;
+}
+
+#specialDishes {
+  clear: both;
+   width: 50%;
+   display: grid;
+   margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.specialSectionpic {
+  height: 15rem;
+  width: 18rem;  
 }
 
 main + section + section li {
@@ -178,11 +208,23 @@ main + section + section  section img{
 
 /*this is the fourth section open hours*/
 main + section + section + section {
+  background-color: #0a9511;;
+  background-size: 100%;
   text-align: center;
   clear: both;
 }
+#bookTable {
+  font-size: 3rem;
+}
 
+#hoursOpen {
+  font-size: 3rem;
+}
 
+#stuffedQueso {
+  height: 15rem;
+  width: 18rem;
+}
 
 
 
@@ -191,7 +233,23 @@ main + section + section + section {
 main + section + section + section + section {
   text-align: center;
 }
+#testimonialSection {
+  font-size: 3rem;
+}
+#profilePicture {
+  height: 13rem;
+  width: 10rem;
+}
 
+#testText {
+  font-size: 2rem;
+}
+
+#copyright {
+  margin: 0 auto;
+  text-align: center;
+  clear: both;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
