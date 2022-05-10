@@ -146,6 +146,7 @@ main + section + section {
   background-image: url("nachos.jpg");
   background-repeat: none;
   background-size: 100%;
+  height: auto;
   
 }
 main + section + section span {
@@ -154,7 +155,11 @@ main + section + section span {
   margin-top: 30px;
 }
 #ourSpecialC {
-  color: white;
+  color: #0a9511;
+}
+
+#mealTimes {
+  text-align: center;
 }
 
 #orderNow{
@@ -169,6 +174,7 @@ main + section + section h2 {
 #specialDishes {
   clear: both;
    width: 50%;
+   height: 100%;
    display: grid;
    margin: 0 auto;
   grid-template-columns: repeat(4, 1fr);
